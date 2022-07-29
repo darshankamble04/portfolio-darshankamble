@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+body {
+  margin: 0;
+  font-family: 'Oswald',sans-serif;
+  background: #e0e0e0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.d-flex
+{
+  display: flex;
+  justify-content: space-around;
+}
