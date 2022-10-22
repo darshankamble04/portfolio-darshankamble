@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
 
+:root{
+  --main-bg-color:#e0e0e000;
+}
+
+/** 
+* * darshan kamble
+* ! Darshan Kamble
+* ? Darshan Kamble
+* TODO: Darshan Kamble
+*/
+
 body {
   margin: 0;
   font-family: 'Oswald',sans-serif;
@@ -18,3 +29,103 @@ code {
   display: flex;
   justify-content: space-around;
 }
+
+.circle{
+  border-radius:50%;
+  position:absolute;
+  transform:translate3d(-50%,-50%,0);
+  transition:transform 2s cubic-bezier(.02,1.23,.79,1.08);
+  z-index: 0;
+}
+.circleR{
+  background:#f00;
+  width:220px;
+  height:220px;
+  
+}
+.circleB{
+  background:blue;
+  width:120px;
+  height:120px;
+  
+}
+.circleV{
+  background:violet;
+  width:120px;
+  height:120px;
+  
+}
+
+.main{
+  background: var(main-bg-color) !important;
+  backdrop-filter: blur(15px) !important;
+  box-shadow: 8px 9px 20px #bebebe, -8px -8px 20px #ffffff !important;
+}
+
+@media screen and (max-width: 1618px) {
+  .left {
+    display: none;
+  }
+  .margincal{
+    margin-left: 5rem !important;
+  }
+}
+
+@media screen and (max-width: 1325px) {
+ .right{
+  margin-right: 5rem !important;
+}
+.kdContainer{
+   overflow: hidden;
+
+ }
+ body{
+  width: 130vw;
+ }
+}
+
+@media screen and (max-width: 1057px) {
+ body{
+  width: 160vw;
+ }
+}
+
+@media screen and (max-width: 853px) {
+
+  .rr{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerBox{
+    width: -webkit-fill-available !important;
+    margin-right: 138px;
+  }
+  .leftBox{
+    width: 100% !important;
+  }
+  .avatar{
+    margin: 0;
+  }
+  
+}
+
+@media screen and (max-width: 678px) {
+  .encounterflex{
+    flex-direction: column;
+  }
+  .containerBox{
+    width: -webkit-fill-available !important;
+    margin-right: 18px;
+  }
+  .margin-5{
+    margin: 0;
+  }
+  .encounterflex .right{
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+  }
+  .rightCB {
+    width: 80% !important;
+  }
+  }
