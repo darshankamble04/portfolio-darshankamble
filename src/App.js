@@ -33,6 +33,7 @@ function App() {
   const [theme, setTheme] = useState(localStorage.getItem("portfolio-theme"))
   const [css, setCss] = useState({})
   useEffect(() => {
+    if(!localStorage.getItem("portfolio-theme")){setThemeL("#e0e0e0")}
     switch (theme) {
       case "#e0e0e0":
         setCss({
@@ -60,6 +61,7 @@ function App() {
     }
     console.log(theme)
   }, [theme, localStorage.getItem("portfolio-theme")])
+
 
   const setThemeL = (color) => {
     setTheme(color)
