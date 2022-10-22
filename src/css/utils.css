@@ -1,6 +1,7 @@
 .textShadow-1 {
   text-shadow: 0px 0px 4px rgb(85 103 112);
-  color: #000 !important;
+  color: #000 ;
+
 }
 .jc-between{
   justify-content: space-between;

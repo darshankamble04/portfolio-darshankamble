@@ -61,13 +61,27 @@ code {
   backdrop-filter: blur(15px) !important;
   box-shadow: 8px 9px 20px #bebebe, -8px -8px 20px #ffffff !important;
 }
-
-@media screen and (max-width: 1618px) {
+.menuIcon{
+  visibility: hidden;
+}
+@media screen and (min-width: 1618px) {
   .left {
-    display: none;
+    display: flex !important;
+  }
+}
+@media screen and (max-width: 1618px) {
+  .menuIcon{
+    visibility: visible;
+  }
+  .left {
+    /* display: none; */
   }
   .margincal{
     margin-left: 5rem !important;
+  }
+  .toggleRight{
+    transition: all 0.5s ease-in;
+    margin-left: 25rem !important;
   }
 }
 
@@ -129,3 +143,9 @@ code {
     width: 80% !important;
   }
   }
+    
+    @media screen and (max-width: 453px) {
+     body{
+      width: 180vw;
+     }
+    }
