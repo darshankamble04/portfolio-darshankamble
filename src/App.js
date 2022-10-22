@@ -57,12 +57,6 @@ function App() {
           color:"black"
         })
         break;
-
-      default:
-        setCss({
-          boxShadow: "8px 9px 20px #bebebe, -8px -8px 20px #ffffff"
-        })
-        break;
     }
     console.log(theme)
   }, [theme, localStorage.getItem("portfolio-theme")])
