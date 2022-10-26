@@ -11,6 +11,7 @@ import gmail from './Assets/gmail.png'
 import dbms from './Assets/dbms.jpg'
 import github from './Assets/github.png'
 import twitter from './Assets/twitter.png'
+import avatar from './Assets/avatar.jpg'
 import pwdchecker from './Assets/pwdchecker.png'
 import ProjectCard from './components/ProjectCard';
 import { useEffect, useState } from 'react';
@@ -98,7 +99,7 @@ function App() {
               <br /> coffee with me?</h4> </div>
           <div  onMouseMove={(e) => { mouseMoveRed(e) }} className="containerBox rr d-flex ">
             <div className="leftCB d-flex">
-              <div  className="avatar containerBox"></div>
+              <img src={avatar}  className="avatar containerBox"></img>
               <br />
               <h4 style={css} className="text textShadow-1">
                 Personalize Theme

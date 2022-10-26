@@ -122,7 +122,10 @@ ul li a {
 .avatar {
   width: 210px !important;
   height: 210px !important;
+  padding: 0;
+  opacity: 0.97;
   border: 1px solid black;
+  /* background: url(src/Assets/avatar.png); */
 }
 
 .leftCB {
