@@ -182,8 +182,8 @@ function App() {
         <div className="d-flex flex-wrap">
 
           <ProjectCard css={css} codeUrl="https://github.com/darshankamble04/notebooks-frontend/" demoUrl="https://enotebooks-darshankamble.herokuapp.com/" imgUrl={notebooks} description="It is an application to create highly secure and functionl Notes and Notebooks on the web. Based on MERN stack." title="Notebooks" />
-          <ProjectCard css={css} imgUrl={loopChat} codeUrl="" demoUrl="" description="It is a way to transfer messages(via chats) and multicast your messages(via groups) more faster. Based on REACT AND FIREBASE." title="Loop-chat" />
-          <ProjectCard css={css} codeUrl="" demoUrl="" imgUrl={portfolio} description="My portfolio with four personalize themes as well as cool transparancy and cursor hover effect.Based on REACT." title="My portfolio" />
+          <ProjectCard css={css} imgUrl={loopChat} codeUrl="https://github.com/darshankamble04/loop-chat" demoUrl="https://loop-chat-darshankamble.web.app/" description="It is a way to transfer messages(via chats) and multicast your messages(via groups) more faster. Based on REACT AND FIREBASE." title="Loop-chat" />
+          <ProjectCard css={css} codeUrl="https://github.com/darshankamble04/portfolio-darshankamble" demoUrl="https://myportfolio-darshankamble.herokuapp.com/" imgUrl={portfolio} description="My portfolio with four personalize themes as well as cool transparancy and cursor hover effect.Based on REACT." title="My portfolio" />
 
 
 

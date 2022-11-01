@@ -8,8 +8,8 @@ export default function ProjectCard({css, imgUrl ,description ,title,codeUrl,dem
                 <h5 style={css} className="card-title">{title}</h5>
                 <p style={css} className="card-text">{description}</p>
                 <div className="d-flex jc-between">
-                    <a href={codeUrl} className="btn btn-secondary">Source code</a>
-                    <a href={demoUrl} className="btn btn-secondary">Live demo</a>
+                    <a href={codeUrl} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Source code</a>
+                    <a href={demoUrl} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">Live demo</a>
                 </div>
             </div>
         </div>
