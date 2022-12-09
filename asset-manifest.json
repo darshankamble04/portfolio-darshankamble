@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio-darshankamble/static/css/main.9ee77a90.css",
+    "main.js": "/portfolio-darshankamble/static/js/main.2b518627.js",
+    "static/media/gif-12.gif": "/portfolio-darshankamble/static/media/gif-12.db618be82ceec0ad936d.gif",
+    "static/media/avatar.jpg": "/portfolio-darshankamble/static/media/avatar.6d312d5a869100cd5d93.jpg",
+    "static/media/notebooks.png": "/portfolio-darshankamble/static/media/notebooks.084ad450515bcce323f1.png",
+    "static/media/portfolio.png": "/portfolio-darshankamble/static/media/portfolio.2db65eb505c932e1eebc.png",
+    "static/media/loopChat.png": "/portfolio-darshankamble/static/media/loopChat.88ce6842ec3a3c400bd0.png",
+    "static/media/instagram.png": "/portfolio-darshankamble/static/media/instagram.79535458a8a6d88f81d4.png",
+    "static/media/dbms.jpg": "/portfolio-darshankamble/static/media/dbms.24021ce9a7bb73b755ce.jpg",
+    "static/media/pwdchecker.png": "/portfolio-darshankamble/static/media/pwdchecker.3f1af2eb027c2092db2a.png",
+    "static/media/twitter.png": "/portfolio-darshankamble/static/media/twitter.570a83358b62aadac17a.png",
+    "static/media/quotewebsite.png": "/portfolio-darshankamble/static/media/quotewebsite.5146c3c45e478e27f121.png",
+    "static/media/github.png": "/portfolio-darshankamble/static/media/github.f11021803f68852df283.png",
+    "index.html": "/portfolio-darshankamble/index.html",
+    "main.9ee77a90.css.map": "/portfolio-darshankamble/static/css/main.9ee77a90.css.map",
+    "main.2b518627.js.map": "/portfolio-darshankamble/static/js/main.2b518627.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ee77a90.css",
+    "static/js/main.2b518627.js"
+  ]
+}
