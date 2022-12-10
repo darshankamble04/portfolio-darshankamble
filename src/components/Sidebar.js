@@ -17,7 +17,7 @@ function Sidebar({css,toggleSidebar, setToggleSidebar}) {
                     <li onClick={()=>{setToggleSidebar(true)}}><a style={css} className='textShadow-1' href="#mySkill">My Skill</a></li>
                     <li onClick={()=>{setToggleSidebar(true)}}><a style={css} className='textShadow-1' href="#MyProjects">Projects</a></li>
                     <li onClick={()=>{setToggleSidebar(true)}} className='d-none'><a style={css} className='textShadow-1 d-flex jc-between' target="__blank" href="#">Blog <span class="material-symbols-outlined" style={css} >open_in_new</span></a></li>
-                    <li onClick={()=>{setToggleSidebar(true)}}><a style={css} className='textShadow-1 d-flex jc-between' target="__blank" href="https://drive.google.com/file/d/1Jw5vgKIfKUnqfMsgLGF8wYC7Vwuu-QYc/view?pli=1">Resume <span class="material-symbols-outlined" style={css} >open_in_new</span></a></li>
+                    <li onClick={()=>{setToggleSidebar(true)}}><a style={css} className='textShadow-1 d-flex jc-between' target="__blank" href="https://drive.google.com/file/d/1uci83ZND2j0ISXZWiQyPMuHdLdOPPVIY/view?usp=share_link">Resume <span class="material-symbols-outlined" style={css} >open_in_new</span></a></li>
                 </ul>
             </nav>
         </div>
